@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+house-of-m-api/node_modules/
+house-of-m-api/dist/
+
 # Logs
 logs
 *.log
