@@ -9,7 +9,7 @@ import { MarvelFetchModule } from './marvel-fetch/marvel-fetch.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MarvelFetchModule
+    MarvelFetchModule,
   ],
   controllers: [AppController],
   providers: [AppService],

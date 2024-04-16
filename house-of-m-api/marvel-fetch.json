@@ -1,1 +1,235 @@
-{"code":200,"status":"Ok","copyright":"© 2024 MARVEL","attributionText":"Data provided by Marvel. © 2024 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>","etag":"b1a2a383f0ce1b06cae83cc54213cc0df88aa3ee","data":{"offset":0,"limit":20,"total":1,"count":1,"results":[{"id":362,"title":"House of M (2006)","description":null,"resourceURI":"http://gateway.marvel.com/v1/public/series/362","urls":[{"type":"detail","url":"http://marvel.com/comics/series/362/house_of_m_2006?utm_campaign=apiRef&utm_source=acf5dfc01108c40c998fe90abcc8fc8e"}],"startYear":2006,"endYear":2006,"rating":"T","type":"collection","modified":"2017-04-04T12:00:21-0400","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/c/a0/4bc5fd2e91e47","extension":"jpg"},"creators":{"available":12,"collectionURI":"http://gateway.marvel.com/v1/public/series/362/creators","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/creators/24","name":"Brian Michael Bendis","role":"writer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/452","name":"Virtual Calligr","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/12581","name":"Vc Chris Eliopoulos","role":"letterer"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/6170","name":"Olivier Coipel","role":"penciller"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/8504","name":"Frank D'ARMATA","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/6146","name":"Avalon Studios","role":"colorist"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/359","name":"John Dell","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/362","name":"Scott Hanna","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/560","name":"Rick Magyar","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/427","name":"Tim Townsend","role":"inker"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/243","name":"Mike Mayhew","role":"penciler"},{"resourceURI":"http://gateway.marvel.com/v1/public/creators/4430","name":"Jeff Youngquist","role":"editor"}],"returned":12},"characters":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/series/362/characters","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/characters/1009726","name":"X-Men"}],"returned":1},"stories":{"available":17,"collectionURI":"http://gateway.marvel.com/v1/public/series/362/stories","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4475","name":"1 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4477","name":"2 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4479","name":"3 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4481","name":"4 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4482","name":"Interior #4482","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4484","name":"1 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4486","name":"2 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4488","name":"5 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4490","name":"Interior #4490","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4492","name":"7 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4494","name":"8 of 8 XLS","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4496","name":"Interior #4496","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/4498","name":"Interior #4498","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/36632","name":"Interior #36632","type":"interiorStory"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/65351","name":"HOUSE OF M 0 cover","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/106245","name":"cover from House of M #0","type":"cover"},{"resourceURI":"http://gateway.marvel.com/v1/public/stories/136567","name":"story from HOUSE OF M TPB (2006) #1","type":"interiorStory"}],"returned":17},"comics":{"available":2,"collectionURI":"http://gateway.marvel.com/v1/public/series/362/comics","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/comics/4005","name":"House of M (Trade Paperback)"},{"resourceURI":"http://gateway.marvel.com/v1/public/comics/41994","name":"House of M (Trade Paperback)"}],"returned":2},"events":{"available":1,"collectionURI":"http://gateway.marvel.com/v1/public/series/362/events","items":[{"resourceURI":"http://gateway.marvel.com/v1/public/events/251","name":"House of M"}],"returned":1},"next":null,"previous":null}]}}
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2024 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2024 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>",
+  "etag": "b1a2a383f0ce1b06cae83cc54213cc0df88aa3ee",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1,
+    "count": 1,
+    "results": [
+      {
+        "id": 362,
+        "title": "House of M (2006)",
+        "description": null,
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/362",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/series/362/house_of_m_2006?utm_campaign=apiRef&utm_source=acf5dfc01108c40c998fe90abcc8fc8e"
+          }
+        ],
+        "startYear": 2006,
+        "endYear": 2006,
+        "rating": "T",
+        "type": "collection",
+        "modified": "2017-04-04T12:00:21-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/4bc5fd2e91e47",
+          "extension": "jpg"
+        },
+        "creators": {
+          "available": 12,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
+              "name": "Brian Michael Bendis",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
+              "name": "Virtual Calligr",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12581",
+              "name": "Vc Chris Eliopoulos",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6170",
+              "name": "Olivier Coipel",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+              "name": "Frank D'ARMATA",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6146",
+              "name": "Avalon Studios",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/359",
+              "name": "John Dell",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
+              "name": "Scott Hanna",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/560",
+              "name": "Rick Magyar",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/427",
+              "name": "Tim Townsend",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/243",
+              "name": "Mike Mayhew",
+              "role": "penciler"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+              "name": "Jeff Youngquist",
+              "role": "editor"
+            }
+          ],
+          "returned": 12
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+              "name": "X-Men"
+            }
+          ],
+          "returned": 1
+        },
+        "stories": {
+          "available": 17,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4475",
+              "name": "1 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4477",
+              "name": "2 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4479",
+              "name": "3 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4481",
+              "name": "4 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4482",
+              "name": "Interior #4482",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4484",
+              "name": "1 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4486",
+              "name": "2 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4488",
+              "name": "5 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4490",
+              "name": "Interior #4490",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4492",
+              "name": "7 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4494",
+              "name": "8 of 8 XLS",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4496",
+              "name": "Interior #4496",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4498",
+              "name": "Interior #4498",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/36632",
+              "name": "Interior #36632",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/65351",
+              "name": "HOUSE OF M 0 cover",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106245",
+              "name": "cover from House of M #0",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/136567",
+              "name": "story from HOUSE OF M TPB (2006) #1",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 17
+        },
+        "comics": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4005",
+              "name": "House of M (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/41994",
+              "name": "House of M (Trade Paperback)"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/251",
+              "name": "House of M"
+            }
+          ],
+          "returned": 1
+        },
+        "next": null,
+        "previous": null
+      }
+    ]
+  }
+}

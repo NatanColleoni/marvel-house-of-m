@@ -4,8 +4,8 @@ import { HttpModule } from '@nestjs/axios';
 import { MarvelFetchService } from './marvel-fetch.service';
 
 @Module({
-    imports: [HttpModule],
-    controllers: [MarvelFetchController],
-    providers: [MarvelFetchService]
+  imports: [HttpModule],
+  controllers: [MarvelFetchController],
+  providers: [MarvelFetchService],
 })
 export class MarvelFetchModule {}
