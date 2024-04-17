@@ -1,21 +1,21 @@
 export class SuccessResponse<T = any> {
-  data?: T | null;
   success: boolean;
+  data?: T | null;
 
   constructor(data: T | null) {
-    this.data = data;
     this.success = true;
+    this.data = data;
   }
 }
 
 export class ErrorResponse<T = any> {
+  success: boolean;
   error: T;
   errorMessage: string;
-  success: boolean;
 
   constructor(error: T, message: string) {
-    this.error = error;
     this.success = false;
+    this.error = error;
     this.errorMessage = message;
   }
 }
