@@ -11,9 +11,18 @@ export class MarvelFetchController {
     return marvelResponse;
   }
 
-  @Get('readfile')
-  readMarvelFile() {
-    this.service.readMarvelFile();
-    return '';
+  @Get('criadores')
+  getHouseOfMCreators() {
+    return this.service.getCreators();
+  }
+
+  @Get('herois')
+  getHouseofMHeroes() {
+    return this.service.getHeroes();
+  }
+
+  @Get('quadrinhos')
+  getHouseOfMComics() {
+    return this.service.getComics();
   }
 }

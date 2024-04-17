@@ -4,7 +4,7 @@
   "copyright": "© 2024 MARVEL",
   "attributionText": "Data provided by Marvel. © 2024 MARVEL",
   "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>",
-  "etag": "b1a2a383f0ce1b06cae83cc54213cc0df88aa3ee",
+  "etag": "4194c4215b388cd56deb014aa0206ae908f3b17e",
   "data": {
     "offset": 0,
     "limit": 20,
@@ -12,29 +12,34 @@
     "count": 1,
     "results": [
       {
-        "id": 362,
-        "title": "House of M (2006)",
-        "description": null,
-        "resourceURI": "http://gateway.marvel.com/v1/public/series/362",
+        "id": 855,
+        "title": "House of M (2005)",
+        "description": "The Scarlet Witch has reshaped reality into a world where Magneto rules with a benevolent hand and our most beloved heroes' lives have changed completely! Can the Avengers and X-Men restore things to the way they were? Do they even want to?",
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/855",
         "urls": [
           {
             "type": "detail",
-            "url": "http://marvel.com/comics/series/362/house_of_m_2006?utm_campaign=apiRef&utm_source=acf5dfc01108c40c998fe90abcc8fc8e"
+            "url": "http://marvel.com/comics/series/855/house_of_m_2005?utm_campaign=apiRef&utm_source=acf5dfc01108c40c998fe90abcc8fc8e"
           }
         ],
-        "startYear": 2006,
-        "endYear": 2006,
-        "rating": "T",
-        "type": "collection",
-        "modified": "2017-04-04T12:00:21-0400",
+        "startYear": 2005,
+        "endYear": 2005,
+        "rating": "",
+        "type": "",
+        "modified": "2018-02-20T10:48:01-0500",
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/4bc5fd2e91e47",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/03/5130fa6870991",
           "extension": "jpg"
         },
         "creators": {
-          "available": 12,
-          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/creators",
+          "available": 15,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/855/creators",
           "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12492",
+              "name": "Ario Anindito",
+              "role": "inker (cover)"
+            },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/creators/24",
               "name": "Brian Michael Bendis",
@@ -61,11 +66,6 @@
               "role": "colorist"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/6146",
-              "name": "Avalon Studios",
-              "role": "colorist"
-            },
-            {
               "resourceURI": "http://gateway.marvel.com/v1/public/creators/359",
               "name": "John Dell",
               "role": "inker"
@@ -76,47 +76,100 @@
               "role": "inker"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/560",
-              "name": "Rick Magyar",
-              "role": "inker"
-            },
-            {
               "resourceURI": "http://gateway.marvel.com/v1/public/creators/427",
               "name": "Tim Townsend",
               "role": "inker"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/243",
-              "name": "Mike Mayhew",
-              "role": "penciler"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/277",
+              "name": "Terry Dodson",
+              "role": "penciller (cover)"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
-              "name": "Jeff Youngquist",
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/532",
+              "name": "Brandon Peterson",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13152",
+              "name": "Joe Quesada",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/182",
+              "name": "Esad Ribic",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
+              "name": "Emily Newcomen",
               "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
+              "name": "Rachelle Rosenberg",
+              "role": "colorist (cover)"
             }
           ],
-          "returned": 12
+          "returned": 15
         },
         "characters": {
-          "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/characters",
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/855/characters",
           "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009338",
+              "name": "Hawkeye"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+              "name": "Magneto"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009524",
+              "name": "Quicksilver"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009562",
+              "name": "Scarlet Witch"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009570",
+              "name": "Sentinel"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
+            },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
               "name": "X-Men"
             }
           ],
-          "returned": 1
+          "returned": 8
         },
         "stories": {
-          "available": 17,
-          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/stories",
+          "available": 34,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/855/stories",
           "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4474",
+              "name": "1 of 8 XLS",
+              "type": "cover"
+            },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4475",
               "name": "1 of 8 XLS",
               "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4476",
+              "name": "2 of 8 XLS",
+              "type": "cover"
             },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4477",
@@ -124,9 +177,19 @@
               "type": "interiorStory"
             },
             {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4478",
+              "name": "3 of 8 XLS",
+              "type": "cover"
+            },
+            {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4479",
               "name": "3 of 8 XLS",
               "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4480",
+              "name": "4 of 8 XLS",
+              "type": "cover"
             },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4481",
@@ -139,9 +202,19 @@
               "type": "interiorStory"
             },
             {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4483",
+              "name": "1 of 8 XLS",
+              "type": "cover"
+            },
+            {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4484",
               "name": "1 of 8 XLS",
               "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4485",
+              "name": "2 of 8 XLS",
+              "type": "cover"
             },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4486",
@@ -149,9 +222,19 @@
               "type": "interiorStory"
             },
             {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4487",
+              "name": "5 of 8 XLS",
+              "type": "cover"
+            },
+            {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4488",
               "name": "5 of 8 XLS",
               "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4489",
+              "name": "Cover #4489",
+              "type": "cover"
             },
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4490",
@@ -159,66 +242,93 @@
               "type": "interiorStory"
             },
             {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4491",
+              "name": "7 of 8 XLS",
+              "type": "cover"
+            },
+            {
               "resourceURI": "http://gateway.marvel.com/v1/public/stories/4492",
               "name": "7 of 8 XLS",
               "type": "interiorStory"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4494",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4493",
               "name": "8 of 8 XLS",
-              "type": "interiorStory"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4496",
-              "name": "Interior #4496",
-              "type": "interiorStory"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4498",
-              "name": "Interior #4498",
-              "type": "interiorStory"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/36632",
-              "name": "Interior #36632",
-              "type": "interiorStory"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/65351",
-              "name": "HOUSE OF M 0 cover",
               "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/106245",
-              "name": "cover from House of M #0",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/136567",
-              "name": "story from HOUSE OF M TPB (2006) #1",
-              "type": "interiorStory"
             }
           ],
-          "returned": 17
+          "returned": 20
         },
         "comics": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/comics",
+          "available": 15,
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/855/comics",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4005",
-              "name": "House of M (Trade Paperback)"
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2092",
+              "name": "House of M (2005) #1"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/comics/41994",
-              "name": "House of M (Trade Paperback)"
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2280",
+              "name": "House of M (2005) #1 (Director's Cut)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2286",
+              "name": "House of M (2005) #1 (Joe Quesada Variant Cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/49273",
+              "name": "House of M (2005) #1 (variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2093",
+              "name": "House of M (2005) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2287",
+              "name": "House of M (2005) #2 (Terry Dodson Variant Cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2198",
+              "name": "House of M (2005) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2199",
+              "name": "House of M (2005) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2385",
+              "name": "House of M (2005) #4 (Brandon Peterson Variant)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2316",
+              "name": "House of M (2005) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/14511",
+              "name": "House of M (2005) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2427",
+              "name": "House of M (2005) #7"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2561",
+              "name": "House of M (2005) #7 (Salvador Larroca Variant Cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2428",
+              "name": "House of M (2005) #8"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/2562",
+              "name": "House of M (2005) #8 (Chris Bachalo Variant)"
             }
           ],
-          "returned": 2
+          "returned": 15
         },
         "events": {
           "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/series/362/events",
+          "collectionURI": "http://gateway.marvel.com/v1/public/series/855/events",
           "items": [
             {
               "resourceURI": "http://gateway.marvel.com/v1/public/events/251",
@@ -227,8 +337,14 @@
           ],
           "returned": 1
         },
-        "next": null,
-        "previous": null
+        "next": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/974",
+          "name": "Decimation: House of M - The Day After (2005)"
+        },
+        "previous": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/740",
+          "name": "Excalibur (2004 - 2005)"
+        }
       }
     ]
   }

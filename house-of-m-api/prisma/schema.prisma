@@ -14,3 +14,24 @@ model Serie {
   endYear Int
   thumbnail String
 }
+
+model Creators {
+  id Int @default(autoincrement()) @id
+  name String
+  role String
+}
+
+model Heroes {
+  id Int @default(autoincrement()) @id
+  name String
+  description String
+  thumbnail String
+}
+
+model Comics {
+  id Int @default(autoincrement()) @id
+  name String
+  variantDescription String
+  thumbnail String
+  description String
+}
