@@ -5,6 +5,7 @@ import { ConfigModule } from '@nestjs/config';
 import { MarvelFetchModule } from './marvel-fetch/marvel-fetch.module';
 import { PrismaService } from './prisma.service';
 import { ComicsModule } from './comics/comics.module';
+import { HeroesModule } from './heroes/heroes.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { ComicsModule } from './comics/comics.module';
     }),
     MarvelFetchModule,
     ComicsModule,
+    HeroesModule,
   ],
   controllers: [AppController],
   providers: [AppService, PrismaService],

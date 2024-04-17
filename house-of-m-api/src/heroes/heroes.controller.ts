@@ -9,28 +9,26 @@ import {
   Put,
   Res,
 } from '@nestjs/common';
-import { ComicsService } from './comics.service';
-import { IComicsCreate } from './models/comics.create';
-import { IComicsUpdate } from './models/comics.update';
 import { ErrorResponse, SuccessResponse } from 'src/common/base.response';
 import { Response } from 'express';
+import { HeroesService } from './heroes.service';
+import { IHeroeCreate } from './models/heroes.create';
+import { IHeroeUpdate } from './models/heroes.update';
 
-@Controller('quadrinhos')
-export class ComicsController {
-  constructor(private service: ComicsService) {}
+@Controller('herois')
+export class HeroesController {
+  constructor(private service: HeroesService) {}
 
   @Get()
   async list(@Res() res: Response) {
     try {
       return res
         .status(HttpStatus.OK)
-        .json(new SuccessResponse(await this.service.comicsList()));
+        .json(new SuccessResponse(await this.service.heroesList()));
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(
-          new ErrorResponse(error, `Erro ao recuperar lista de quadrinhos `),
-        );
+        .json(new ErrorResponse(error, `Erro ao recuperar lista de heróis`));
     }
   }
 
@@ -39,31 +37,31 @@ export class ComicsController {
     try {
       return res
         .status(HttpStatus.OK)
-        .json(new SuccessResponse(await this.service.comicById(Math.abs(id))));
+        .json(new SuccessResponse(await this.service.heroeById(Math.abs(id))));
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao recuperar quadrinho ${id}`));
+        .json(new ErrorResponse(error, `Erro ao recuperar herói ${id}`));
     }
   }
 
   @Post()
-  async create(@Body() comic: IComicsCreate, @Res() res: Response) {
+  async create(@Body() heroe: IHeroeCreate, @Res() res: Response) {
     try {
       return res
         .status(HttpStatus.CREATED)
-        .json(new SuccessResponse(await this.service.comicsCreate(comic)));
+        .json(new SuccessResponse(await this.service.heroesCreate(heroe)));
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, 'Erro ao criar novo quadrinho'));
+        .json(new ErrorResponse(error, 'Erro ao criar novo herói'));
     }
   }
 
   @Put(':id')
   async update(
     @Param('id') id,
-    @Body() comic: IComicsUpdate,
+    @Body() heroe: IHeroeUpdate,
     @Res() res: Response,
   ) {
     try {
@@ -71,13 +69,13 @@ export class ComicsController {
         .status(HttpStatus.OK)
         .json(
           new SuccessResponse(
-            await this.service.comicsUpdate(Math.abs(id), comic),
+            await this.service.heroesUpdate(Math.abs(id), heroe),
           ),
         );
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao atualizar quadrinho ${id}`));
+        .json(new ErrorResponse(error, `Erro ao atualizar herói ${id}`));
     }
   }
 
@@ -87,12 +85,12 @@ export class ComicsController {
       return res
         .status(HttpStatus.OK)
         .json(
-          new SuccessResponse(await this.service.comicsDelete(Math.abs(id))),
+          new SuccessResponse(await this.service.heroesDelete(Math.abs(id))),
         );
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao deletar quadrinho ${id}`));
+        .json(new ErrorResponse(error, `Erro ao deletar herói ${id}`));
     }
   }
 }

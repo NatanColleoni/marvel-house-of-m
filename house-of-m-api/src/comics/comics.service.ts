@@ -36,7 +36,7 @@ export class ComicsService {
         name: comic.name,
         variantDescription: comic.variantDescription,
         thumbnail: comic.thumbnail,
-        description: comic.thumbnail,
+        description: comic.description,
       },
       where: {
         id: id,
