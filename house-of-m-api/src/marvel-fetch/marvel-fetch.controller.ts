@@ -1,6 +1,8 @@
 import { Controller, Get } from '@nestjs/common';
 import { MarvelFetchService } from './marvel-fetch.service';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('fetch marvel data')
 @Controller('marvel-fetch')
 export class MarvelFetchController {
   constructor(private service: MarvelFetchService) {}

@@ -1,10 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-export class IHeroeUpdateDto {
+export class ICreatorUpdateDto {
   @ApiProperty()
   name: string;
   @ApiProperty()
-  thumbnail: string;
-  @ApiProperty()
-  description: string;
+  role: string;
 }

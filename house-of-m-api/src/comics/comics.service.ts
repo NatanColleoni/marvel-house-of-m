@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma.service';
-import { IComicsCreate } from './models/comics.create';
-import { IComicsUpdate } from './models/comics.update';
+import { IComicsCreateDto } from './models/comics.create';
+import { IComicsUpdateDto } from './models/comics.update';
 
 @Injectable()
 export class ComicsService {
@@ -19,7 +19,7 @@ export class ComicsService {
     });
   }
 
-  async comicsCreate(comic: IComicsCreate) {
+  async comicsCreate(comic: IComicsCreateDto) {
     return await this.prisma.comics.create({
       data: {
         name: comic.name,
@@ -30,7 +30,7 @@ export class ComicsService {
     });
   }
 
-  async comicsUpdate(id: number, comic: IComicsUpdate) {
+  async comicsUpdate(id: number, comic: IComicsUpdateDto) {
     return await this.prisma.comics.update({
       data: {
         name: comic.name,

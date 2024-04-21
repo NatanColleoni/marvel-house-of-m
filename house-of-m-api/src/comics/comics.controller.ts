@@ -10,11 +10,13 @@ import {
   Res,
 } from '@nestjs/common';
 import { ComicsService } from './comics.service';
-import { IComicsCreate } from './models/comics.create';
-import { IComicsUpdate } from './models/comics.update';
+import { IComicsCreateDto } from './models/comics.create';
+import { IComicsUpdateDto } from './models/comics.update';
 import { ErrorResponse, SuccessResponse } from 'src/common/base.response';
 import { Response } from 'express';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('quadrinhos')
 @Controller('quadrinhos')
 export class ComicsController {
   constructor(private service: ComicsService) {}
@@ -48,7 +50,7 @@ export class ComicsController {
   }
 
   @Post()
-  async create(@Body() comic: IComicsCreate, @Res() res: Response) {
+  async create(@Body() comic: IComicsCreateDto, @Res() res: Response) {
     try {
       return res
         .status(HttpStatus.CREATED)
@@ -63,7 +65,7 @@ export class ComicsController {
   @Put(':id')
   async update(
     @Param('id') id,
-    @Body() comic: IComicsUpdate,
+    @Body() comic: IComicsUpdateDto,
     @Res() res: Response,
   ) {
     try {

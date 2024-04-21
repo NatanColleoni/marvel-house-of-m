@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma.service';
-import { IHeroeCreate } from './models/heroes.create';
-import { IHeroeUpdate } from './models/heroes.update';
+import { IHeroeCreateDto } from './models/heroes.create';
+import { IHeroeUpdateDto } from './models/heroes.update';
 
 @Injectable()
 export class HeroesService {
@@ -19,7 +19,7 @@ export class HeroesService {
     });
   }
 
-  async heroesCreate(heroe: IHeroeCreate) {
+  async heroesCreate(heroe: IHeroeCreateDto) {
     return await this.prisma.heroes.create({
       data: {
         name: heroe.name,
@@ -29,7 +29,7 @@ export class HeroesService {
     });
   }
 
-  async heroesUpdate(id: number, heroe: IHeroeUpdate) {
+  async heroesUpdate(id: number, heroe: IHeroeUpdateDto) {
     return await this.prisma.heroes.update({
       data: {
         name: heroe.name,

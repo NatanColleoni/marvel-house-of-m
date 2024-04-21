@@ -6,6 +6,7 @@ import { MarvelFetchModule } from './marvel-fetch/marvel-fetch.module';
 import { PrismaService } from './prisma.service';
 import { ComicsModule } from './comics/comics.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { CreatorsModule } from './creators/creators.module';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { HeroesModule } from './heroes/heroes.module';
     MarvelFetchModule,
     ComicsModule,
     HeroesModule,
+    CreatorsModule,
   ],
   controllers: [AppController],
   providers: [AppService, PrismaService],

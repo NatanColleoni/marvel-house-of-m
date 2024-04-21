@@ -11,26 +11,26 @@ import {
 } from '@nestjs/common';
 import { ErrorResponse, SuccessResponse } from 'src/common/base.response';
 import { Response } from 'express';
-import { HeroesService } from './heroes.service';
-import { IHeroeCreateDto } from './models/heroes.create';
-import { IHeroeUpdateDto } from './models/heroes.update';
+import { CreatorsService } from './creators.service';
+import { ICreatorCreateDto } from './models/creator.create';
+import { ICreatorUpdateDto } from './models/creator.update';
 import { ApiTags } from '@nestjs/swagger';
 
-@ApiTags('herois')
-@Controller('herois')
-export class HeroesController {
-  constructor(private service: HeroesService) {}
+@ApiTags('criadores')
+@Controller('criadores')
+export class CreatorsController {
+  constructor(private service: CreatorsService) {}
 
   @Get()
   async list(@Res() res: Response) {
     try {
       return res
         .status(HttpStatus.OK)
-        .json(new SuccessResponse(await this.service.heroesList()));
+        .json(new SuccessResponse(await this.service.creatorsList()));
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao recuperar lista de heróis`));
+        .json(new ErrorResponse(error, `Erro ao recuperar lista de criadores`));
     }
   }
 
@@ -39,31 +39,33 @@ export class HeroesController {
     try {
       return res
         .status(HttpStatus.OK)
-        .json(new SuccessResponse(await this.service.heroeById(Math.abs(id))));
+        .json(
+          new SuccessResponse(await this.service.creatorById(Math.abs(id))),
+        );
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao recuperar herói ${id}`));
+        .json(new ErrorResponse(error, `Erro ao recuperar criador ${id}`));
     }
   }
 
   @Post()
-  async create(@Body() heroe: IHeroeCreateDto, @Res() res: Response) {
+  async create(@Body() creator: ICreatorCreateDto, @Res() res: Response) {
     try {
       return res
         .status(HttpStatus.CREATED)
-        .json(new SuccessResponse(await this.service.heroesCreate(heroe)));
+        .json(new SuccessResponse(await this.service.creatorsCreate(creator)));
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, 'Erro ao criar novo herói'));
+        .json(new ErrorResponse(error, 'Erro ao criar novo criador'));
     }
   }
 
   @Put(':id')
   async update(
     @Param('id') id,
-    @Body() heroe: IHeroeUpdateDto,
+    @Body() creator: ICreatorUpdateDto,
     @Res() res: Response,
   ) {
     try {
@@ -71,13 +73,13 @@ export class HeroesController {
         .status(HttpStatus.OK)
         .json(
           new SuccessResponse(
-            await this.service.heroesUpdate(Math.abs(id), heroe),
+            await this.service.creatorsUpdate(Math.abs(id), creator),
           ),
         );
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao atualizar herói ${id}`));
+        .json(new ErrorResponse(error, `Erro ao atualizar criador ${id}`));
     }
   }
 
@@ -87,12 +89,12 @@ export class HeroesController {
       return res
         .status(HttpStatus.OK)
         .json(
-          new SuccessResponse(await this.service.heroesDelete(Math.abs(id))),
+          new SuccessResponse(await this.service.creatorsDelete(Math.abs(id))),
         );
     } catch (error) {
       return res
         .status(HttpStatus.BAD_REQUEST)
-        .json(new ErrorResponse(error, `Erro ao deletar herói ${id}`));
+        .json(new ErrorResponse(error, `Erro ao deletar criador ${id}`));
     }
   }
 }
